@@ -1,8 +1,12 @@
 import './App.css';
 
 import CountrieTables from './components/CountrieTables';
+// import { configure } from '@testing-library/react';
+import React from 'react';
 
 function App() {
+
+  
   return (
     <>
     <div className="App">
@@ -16,4 +20,3 @@ function App() {
 export default App;
 
 
-// https://restcountries.com/v2/all 
